@@ -23,3 +23,10 @@
  - Launch a new EC2 instance (Ubuntu )
 
  - The project folder name should also include your name (e.g., webapp_xusanboy)
+
+4. **SSH into EC2**:
+   - Run:  
+     ```bash
+     ssh -i "C:\your_key_2_ec2.pem" ubuntu@<EC2_Public_IP>
+     ```
+     

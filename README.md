@@ -42,3 +42,4 @@ The following policy allows public access to the S3 bucket and its contents:
         }
     ]
 }
+'''json 

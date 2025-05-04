@@ -1,4 +1,4 @@
-##**1. Database setup**
+**1. Database setup**
 
 - Installing dataset from Kaggle https://www.kaggle.com/datasets
 
@@ -9,7 +9,7 @@
 - Importing CSV file to the database in Debeaver
 
   
-##**2. S3 Static Hosting**
+**2. S3 Static Hosting**
 
 - Create an S3 bucket for static website hosting
 
@@ -18,7 +18,7 @@
 - Set up the correct S3 bucket policy to make it public
 
 
-##**3. EC2 Deployment:**
+**3. EC2 Deployment:**
 
  - Launch a new EC2 instance (Ubuntu )
 

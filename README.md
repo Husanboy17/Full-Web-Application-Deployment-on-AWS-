@@ -42,20 +42,3 @@ The following policy allows public access to the S3 bucket and its contents:
         }
     ]
 }
-
-**1. Install Docker and Start PostgreSQL in Docker**
-
-```bash
-# Pull the latest PostgreSQL Docker image
-docker pull postgres:latest
-
-# Create a Docker container for the PostgreSQL database
-docker run --name muhammad-db -e POSTGRES_USER=Muhammad -e POSTGRES_PASSWORD=1234 -d -p 5432:5432 postgres:latest
-
-
-# Verify the container is running
-docker ps
-
-# Access the running PostgreSQL container
-docker exec -it muhammad-db psql -U Muhammad
-```

@@ -20,6 +20,6 @@
 
 ##**3. EC2 Deployment:**
 
-Launch a new EC2 instance (Ubuntu )
+ - Launch a new EC2 instance (Ubuntu )
 
-The project folder name should also include your name (e.g., webapp_xusanboy)
+ - The project folder name should also include your name (e.g., webapp_xusanboy)

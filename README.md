@@ -67,5 +67,5 @@
     - Enable **Static Website Hosting**
     - Make the bucket **public**
     - Add **public read policy** to the bucket
-    - Open your **S3 website endpoint** — you should see the list of students fetched from RDS.
+    - Open your **S3 website endpoint** — you should see the list of books fetched from RDS.
     

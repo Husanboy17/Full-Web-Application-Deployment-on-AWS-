@@ -38,6 +38,17 @@
      touch app.py
      ```
    - Edit `app.py`.
+
+    ### Create `app.py` put app.py file code and change these parts with your data
+
+```python
+conn = pymysql.connect(
+    host='your-rds-endpoint',
+    user='admin',
+    password='admin1234',
+    db='studentdb'
+```
+
   
 6. **Set Up Python Virtual Environment**:
     - Set up and activate the virtual environment:
